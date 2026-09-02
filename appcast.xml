@@ -4,6 +4,18 @@
     <title>Infracom Mail</title>
     <language>en</language>
     <item>
+      <title>Infracom Mail 0.3.2</title>
+      <pubDate>Wed, 02 Sep 2026 22:32:10 +0100</pubDate>
+      <sparkle:version>6</sparkle:version>
+      <sparkle:shortVersionString>0.3.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<pre>
+- An image placed in a message you send now arrives inside it. It was being
+  dropped from the message on the way out, so it turned up as a plain
+  attachment instead, and looked wrong in your own Sent folder.</pre>]]></description>
+      <enclosure url="https://github.com/ijasonwhite/infracom-updates/releases/download/v0.3.2/InfracomMail-0.3.2.zip" sparkle:edSignature="qXWpMFwRa0Xc9EKQzcBn2XyySRumynFe29B6sT4Mm6yd9thp1/KwwKUA3GczfYqJh9YP+3HSs66n9eBud3yQAQ==" length="1910423" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>Infracom Mail 0.3.1</title>
       <pubDate>Wed, 02 Sep 2026 22:17:42 +0100</pubDate>
       <sparkle:version>5</sparkle:version>
