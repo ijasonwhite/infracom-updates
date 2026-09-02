@@ -4,6 +4,19 @@
     <title>Infracom Mail</title>
     <language>en</language>
     <item>
+      <title>Infracom Mail 0.3.3</title>
+      <pubDate>Wed, 02 Sep 2026 22:46:15 +0100</pubDate>
+      <sparkle:version>7</sparkle:version>
+      <sparkle:shortVersionString>0.3.3</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<pre>
+- Attached images show a thumbnail instead of only their filename, so you can
+  see what was sent without saving it first.
+- Updates install. The released builds carried a malformed entitlement, so the
+  updater was refused permission to talk to its own installer.</pre>]]></description>
+      <enclosure url="https://github.com/ijasonwhite/infracom-updates/releases/download/v0.3.3/InfracomMail-0.3.3.zip" sparkle:edSignature="A9hOGGUrjeF8GJKEvzEQaURE2i/IKJCyVzh3LC7PMQh4jxI4Ps6zuNaRKCxnXwfiVuE4hycKkeXTUcpXdHQJAw==" length="1933544" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>Infracom Mail 0.3.2</title>
       <pubDate>Wed, 02 Sep 2026 22:32:10 +0100</pubDate>
       <sparkle:version>6</sparkle:version>
