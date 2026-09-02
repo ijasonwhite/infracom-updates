@@ -1,0 +1,11 @@
+{
+  "version": "0.2.0",
+  "notes": "\n- Sign in on a PC with a six-character PIN instead of a username and password.\n  The saved session is encrypted with the PIN, so it is the only way back in on\n  that machine; five wrong attempts removes it and asks for the password.\n- The login window now puts the caret in the field it is asking for: the\n  password when the account is already known, the username otherwise.\n- Automatic updates, verified against the release signing key before installing.",
+  "packages": {
+    "win-x64": {
+      "url": "https://github.com/ijasonwhite/infracom-updates/releases/download/v0.2.0-windows/InfracomMail-win-x64-0.2.0.zip",
+      "sha256": "e255b498102a690feab401772a95da134e73a03d6ba44dd6bc11bdeb04afdec9",
+      "signature": "MEUCIQCk79f59L+v6RHlJnuv4Tup7N7aVh7SPTjsf1T9DqrHVAIgVZLUzZ7zSgsjF235gKJynHgxBw3EjOPltSgltb6TVa0="
+    }
+  }
+}
