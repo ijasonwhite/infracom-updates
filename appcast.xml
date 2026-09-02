@@ -4,6 +4,19 @@
     <title>Infracom Mail</title>
     <language>en</language>
     <item>
+      <title>Infracom Mail 0.3.0</title>
+      <pubDate>Wed, 02 Sep 2026 22:11:09 +0100</pubDate>
+      <sparkle:version>4</sparkle:version>
+      <sparkle:shortVersionString>0.3.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<pre>
+- Embedded images show in the message instead of appearing as files to
+  download, including pictures in mail written in Outlook.
+- Compose can place an image inside the message, at the caret.
+- A picture the message embeds is no longer also listed as an attachment.</pre>]]></description>
+      <enclosure url="https://github.com/ijasonwhite/infracom-updates/releases/download/v0.3.0/InfracomMail-0.3.0.zip" sparkle:edSignature="F2deJxwWiqbvbw3UNvR9MhXBF0LSmJ9J1jT95jurDywCTzv71jWjRvRJsKTD1hjMKwnV3gD0LNFe89Y1+HGSBw==" length="1910319" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>Infracom Mail 0.2.2</title>
       <pubDate>Wed, 02 Sep 2026 12:13:13 +0100</pubDate>
       <sparkle:version>3</sparkle:version>
