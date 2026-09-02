@@ -1,16 +1,11 @@
 {
-  "version": "0.2.1",
-  "notes": "\n- Setting a PIN explains what it changes before you choose one, can reveal what\n  you typed, and can be changed in one step rather than removed and set again.\n- Choosing or entering a PIN no longer freezes the window while the key is\n  derived.",
+  "version": "0.3.0",
+  "notes": "\n- Messages render as HTML: formatting, quoted replies and embedded images all\n  show, instead of everything being flattened to plain text.\n- Compose has formatting (bold, italic, underline, lists) and can place an\n  image inside the message rather than only beside it.\n- A picture the message embeds is no longer also listed as a file to download.",
   "packages": {
     "win-x64": {
-      "url": "https://github.com/ijasonwhite/infracom-updates/releases/download/v0.2.1-windows/InfracomMail-win-x64-0.2.1.zip",
-      "sha256": "17b37870bb72d452261d4755877b56f6504a1eba0ed33197699974b3e1034db5",
-      "signature": "MEUCIFVWBBWVXB4G+FQDcWRwGEiiH7vBcTxOaBLHZ/rPYCf5AiEAmekyiIA3savTbVn2xX/Nt419H7VgWknQ1HFjSTdFXBw="
-    },
-    "win-arm64": {
-      "url": "https://github.com/ijasonwhite/infracom-updates/releases/download/v0.2.1-windows/InfracomMail-win-arm64-0.2.1.zip",
-      "sha256": "815431b651c22dcd1253c3e24baf9796564497a1b982d98444a8b48bd0f376c9",
-      "signature": "MEUCIQC4QBbUU5vPfy+FkH7O4yxJMqkxtQPEQOj62dDCykqaaAIgYDaM2i91Z38au86LWdtoJPMmIgHinUACj3917BrPlIk="
+      "url": "https://github.com/ijasonwhite/infracom-updates/releases/download/v0.3.0-windows/InfracomMail-win-x64-0.3.0.zip",
+      "sha256": "c58abb06523dc4c9e617fc895030c2e4c973695cdbac4373e78332bf450ea881",
+      "signature": "MEUCIFoyTt0yvrB4Cz0pQaeHo/zwK37t6Sz+zqK7IaHKj6R0AiEA0vh6uoda2OcLYQpRacxXUg/9zjJDXsDCi2e9Y7egwVs="
     }
   }
 }
