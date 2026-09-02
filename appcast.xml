@@ -4,6 +4,18 @@
     <title>Infracom Mail</title>
     <language>en</language>
     <item>
+      <title>Infracom Mail 0.3.1</title>
+      <pubDate>Wed, 02 Sep 2026 22:17:42 +0100</pubDate>
+      <sparkle:version>5</sparkle:version>
+      <sparkle:shortVersionString>0.3.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<pre>
+- Updates install. Finding one worked; applying it failed with "An error
+  occurred while launching the installer" because the app was missing the key
+  that tells Sparkle a sandboxed app installs through its XPC service.</pre>]]></description>
+      <enclosure url="https://github.com/ijasonwhite/infracom-updates/releases/download/v0.3.1/InfracomMail-0.3.1.zip" sparkle:edSignature="P7gMNwaqb55eFaUOjU/5rtLRmP3v5l1HgLYJ5AIbsJ/n1usq2pWkxRv7Ewf25D2DXrjhj4KzdP4DsHr7iSAPBg==" length="1910310" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>Infracom Mail 0.3.0</title>
       <pubDate>Wed, 02 Sep 2026 22:11:09 +0100</pubDate>
       <sparkle:version>4</sparkle:version>
