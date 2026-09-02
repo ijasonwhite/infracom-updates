@@ -4,6 +4,24 @@
     <title>Infracom Mail</title>
     <language>en</language>
     <item>
+      <title>Infracom Mail 0.2.1</title>
+      <pubDate>Wed, 02 Sep 2026 12:05:25 +0100</pubDate>
+      <sparkle:version>2</sparkle:version>
+      <sparkle:shortVersionString>0.2.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<pre>
+- Messages and replies follow the system appearance. Mail written in Outlook
+  carries an explicit black on its text, which stayed black in dark mode and
+  left whole messages unreadable.
+- Replying while a compose window is already open now fills in the recipient
+  and subject, instead of reusing the open window's blank state.
+- Fixed automatic updates failing to start on this sandboxed app.
+- Setting a PIN explains what it changes before you choose one, shows a caret
+  so it is clear the boxes are taking typing, can reveal what you typed, and
+  can be changed in one step rather than removed and set again.</pre>]]></description>
+      <enclosure url="https://github.com/ijasonwhite/infracom-updates/releases/download/v0.2.1/InfracomMail-0.2.1.zip" sparkle:edSignature="U8xwDc9RJwTGRuJQ+JiwsSqCY52OYR7FajfbEY+F4Uxd3LK97RJosIKE588TbR9oC/tp52d0DyMunzOVsisuBw==" length="1952865" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>Infracom Mail 0.2.0</title>
       <pubDate>Wed, 02 Sep 2026 11:35:19 +0100</pubDate>
       <sparkle:version>1</sparkle:version>
