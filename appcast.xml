@@ -4,6 +4,22 @@
     <title>Infracom Mail</title>
     <language>en</language>
     <item>
+      <title>Infracom Mail 0.3.4</title>
+      <pubDate>Wed, 02 Sep 2026 22:55:46 +0100</pubDate>
+      <sparkle:version>8</sparkle:version>
+      <sparkle:shortVersionString>0.3.4</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<pre>
+- Message bodies are visible again. Since 0.3.0 every body was laid out with
+  no height at all, so messages appeared empty.
+- Mail you send no longer carries your appearance's colours. Writing in dark
+  mode was hard-coding light grey text into the message, which read badly for
+  anyone in light mode.
+- Mail that arrives with light text and no background to sit on is recoloured
+  so it stays readable.</pre>]]></description>
+      <enclosure url="https://github.com/ijasonwhite/infracom-updates/releases/download/v0.3.4/InfracomMail-0.3.4.zip" sparkle:edSignature="Kfb6ycrK2OL6l+2FH4VuYdsA6YzJAmoOTYkYnZQ59qq0RU/xNwjThF9N0tRcRjaF/7CaQwlsD6uHMM/s4q9iCg==" length="1934363" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>Infracom Mail 0.3.3</title>
       <pubDate>Wed, 02 Sep 2026 22:46:15 +0100</pubDate>
       <sparkle:version>7</sparkle:version>
