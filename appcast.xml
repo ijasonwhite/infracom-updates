@@ -4,6 +4,18 @@
     <title>Infracom Mail</title>
     <language>en</language>
     <item>
+      <title>Infracom Mail 0.2.2</title>
+      <pubDate>Wed, 02 Sep 2026 12:13:13 +0100</pubDate>
+      <sparkle:version>3</sparkle:version>
+      <sparkle:shortVersionString>0.2.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<pre>
+- Automatic updates work. 0.2.1 shipped a fix that was the wrong one: Sparkle
+  keeps its helper services inside its own framework, and moving them into the
+  app was itself a fatal updater error, so no update check ever ran.</pre>]]></description>
+      <enclosure url="https://github.com/ijasonwhite/infracom-updates/releases/download/v0.2.2/InfracomMail-0.2.2.zip" sparkle:edSignature="/KXsio6pz11AIDG/EHBNJh+6FxGTmLCI68MFLBrEWphBk73SiksReoD6AIROR/MhyXpO1FwGaYtXoZuI+1SRAw==" length="1890772" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>Infracom Mail 0.2.1</title>
       <pubDate>Wed, 02 Sep 2026 12:05:25 +0100</pubDate>
       <sparkle:version>2</sparkle:version>
