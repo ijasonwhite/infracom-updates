@@ -3,5 +3,20 @@
   <channel>
     <title>Infracom Mail</title>
     <language>en</language>
+    <item>
+      <title>Infracom Mail 0.2.0</title>
+      <pubDate>Wed, 02 Sep 2026 11:35:19 +0100</pubDate>
+      <sparkle:version>1</sparkle:version>
+      <sparkle:shortVersionString>0.2.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<pre>
+- Sign in on a Mac with a six-character PIN instead of a username and password.
+  The saved session is encrypted with the PIN, so it is the only way back in on
+  that machine; five wrong attempts removes it and asks for the password.
+- The login window now puts the caret in the field it is asking for: the
+  password when the account is already known, the username otherwise.
+- Automatic updates.</pre>]]></description>
+      <enclosure url="https://github.com/ijasonwhite/infracom-updates/releases/download/v0.2.0/InfracomMail-0.2.0.zip" sparkle:edSignature="9dfaQ4OV74RTWw8CVnM0J6MpLGMuskFX0wKJNzMDZRqfKvXcKRqLunQy7t8RiIultvVV8aYwaSRGGrZfSAUfAg==" length="1981906" type="application/octet-stream"/>
+    </item>
   </channel>
 </rss>
