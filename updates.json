@@ -1,16 +1,11 @@
 {
-  "version": "0.2.0",
-  "notes": "\n- Sign in on a PC with a six-character PIN instead of a username and password.\n  The saved session is encrypted with the PIN, so it is the only way back in on\n  that machine; five wrong attempts removes it and asks for the password.\n- The login window now puts the caret in the field it is asking for: the\n  password when the account is already known, the username otherwise.\n- Automatic updates, verified against the release signing key before installing.",
+  "version": "0.2.1",
+  "notes": "\n- Setting a PIN explains what it changes before you choose one, can reveal what\n  you typed, and can be changed in one step rather than removed and set again.\n- Choosing or entering a PIN no longer freezes the window while the key is\n  derived.",
   "packages": {
     "win-x64": {
-      "url": "https://github.com/ijasonwhite/infracom-updates/releases/download/v0.2.0-windows/InfracomMail-win-x64-0.2.0.zip",
-      "sha256": "e255b498102a690feab401772a95da134e73a03d6ba44dd6bc11bdeb04afdec9",
-      "signature": "MEUCIQCk79f59L+v6RHlJnuv4Tup7N7aVh7SPTjsf1T9DqrHVAIgVZLUzZ7zSgsjF235gKJynHgxBw3EjOPltSgltb6TVa0="
-    },
-    "win-arm64": {
-      "url": "https://github.com/ijasonwhite/infracom-updates/releases/download/v0.2.0-windows/InfracomMail-win-arm64-0.2.0.zip",
-      "sha256": "ecce448471e40bb31b4782178bb72f014a79b7a3df81ccd3cbf65e80b41d8912",
-      "signature": "MEYCIQClURqiY4KrX+w+WBj4BiXVmoAOrFav3YT7+ky2L8fxVwIhAI1/562r/816KXyGQYDUQLORZLaDxcidRTxs0vTNSY6P"
+      "url": "https://github.com/ijasonwhite/infracom-updates/releases/download/v0.2.1-windows/InfracomMail-win-x64-0.2.1.zip",
+      "sha256": "17b37870bb72d452261d4755877b56f6504a1eba0ed33197699974b3e1034db5",
+      "signature": "MEUCIFVWBBWVXB4G+FQDcWRwGEiiH7vBcTxOaBLHZ/rPYCf5AiEAmekyiIA3savTbVn2xX/Nt419H7VgWknQ1HFjSTdFXBw="
     }
   }
 }
