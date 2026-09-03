@@ -1,16 +1,11 @@
 {
-  "version": "0.3.0",
-  "notes": "\n- Messages render as HTML: formatting, quoted replies and embedded images all\n  show, instead of everything being flattened to plain text.\n- Compose has formatting (bold, italic, underline, lists) and can place an\n  image inside the message rather than only beside it.\n- A picture the message embeds is no longer also listed as a file to download.",
+  "version": "0.4.0",
+  "notes": "Infracom Mail 0.4.0",
   "packages": {
     "win-x64": {
-      "url": "https://github.com/ijasonwhite/infracom-updates/releases/download/v0.3.0-windows/InfracomMail-win-x64-0.3.0.zip",
-      "sha256": "c58abb06523dc4c9e617fc895030c2e4c973695cdbac4373e78332bf450ea881",
-      "signature": "MEUCIFoyTt0yvrB4Cz0pQaeHo/zwK37t6Sz+zqK7IaHKj6R0AiEA0vh6uoda2OcLYQpRacxXUg/9zjJDXsDCi2e9Y7egwVs="
-    },
-    "win-arm64": {
-      "url": "https://github.com/ijasonwhite/infracom-updates/releases/download/v0.3.0-windows/InfracomMail-win-arm64-0.3.0.zip",
-      "sha256": "9829bba26232b96cb759c39d317d4e00db238076414f4ab6c89801cd260a8c5c",
-      "signature": "MEYCIQCYYcjUAM8qBQOGHSAgMvSQzJFMFlCNFka1Py2uaiLmYQIhAJyLYoi0WuJ0aBVPMSnG4XKEAhib6AXljKlk7na8gQ2m"
+      "url": "https://github.com/ijasonwhite/infracom-updates/releases/download/v0.4.0-windows/InfracomMail-win-x64-0.4.0.zip",
+      "sha256": "61ed79e5c0c57a9b8dc8ba3ed9f0a0113bdb4eb88ced03403c3ec9a3fad8a213",
+      "signature": "MEUCIHsEOKA9TY+yOaaacbPlwpV8wj6iP+9RfuBsiyJTOtOIAiEAwvCUiDbu4GmqT9nCdOCJ4qP0BwuKE/ZrG0SDqZq8VQA="
     }
   }
 }
