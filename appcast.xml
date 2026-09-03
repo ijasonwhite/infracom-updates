@@ -4,6 +4,15 @@
     <title>Infracom Mail</title>
     <language>en</language>
     <item>
+      <title>Infracom Mail 0.4.0</title>
+      <pubDate>Thu, 03 Sep 2026 18:55:50 +0100</pubDate>
+      <sparkle:version>9</sparkle:version>
+      <sparkle:shortVersionString>0.4.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<pre>Infracom Mail 0.4.0</pre>]]></description>
+      <enclosure url="https://github.com/ijasonwhite/infracom-updates/releases/download/v0.4.0/InfracomMail-0.4.0.zip" sparkle:edSignature="vNBf2EXA5mAF5jW7THjrNd8vWiv4czDZZ8Ew6Xxerq5Auo2XU4n1u7Bu/9h85UllTGTveO5z9b0JSwW7SDhlAA==" length="3089616" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>Infracom Mail 0.3.4</title>
       <pubDate>Wed, 02 Sep 2026 22:55:46 +0100</pubDate>
       <sparkle:version>8</sparkle:version>
