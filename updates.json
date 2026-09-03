@@ -1,16 +1,11 @@
 {
-  "version": "0.4.0",
-  "notes": "Infracom Mail 0.4.0",
+  "version": "0.5.0",
+  "notes": "Infracom Mail 0.5.0",
   "packages": {
     "win-x64": {
-      "url": "https://github.com/ijasonwhite/infracom-updates/releases/download/v0.4.0-windows/InfracomMail-win-x64-0.4.0.zip",
-      "sha256": "61ed79e5c0c57a9b8dc8ba3ed9f0a0113bdb4eb88ced03403c3ec9a3fad8a213",
-      "signature": "MEUCIHsEOKA9TY+yOaaacbPlwpV8wj6iP+9RfuBsiyJTOtOIAiEAwvCUiDbu4GmqT9nCdOCJ4qP0BwuKE/ZrG0SDqZq8VQA="
-    },
-    "win-arm64": {
-      "url": "https://github.com/ijasonwhite/infracom-updates/releases/download/v0.4.0-windows/InfracomMail-win-arm64-0.4.0.zip",
-      "sha256": "fc033679bf9f52789f7c2392c52903eaf93bd813870be7e892b235cd1571eb67",
-      "signature": "MEUCIFDON/zmX2yRjexmdpQaYaWLgXNPisj9mqmii8eYPTR3AiEAo/RzPVQHmY4E0lxggYxvIKv7NYnz8QsF9ml2BgXQ5PU="
+      "url": "https://github.com/ijasonwhite/infracom-updates/releases/download/v0.5.0-windows/InfracomMail-win-x64-0.5.0.zip",
+      "sha256": "ee333ef7361e853fc1c7a099bcc56173656fe987d095444a405e2d90deaa746b",
+      "signature": "MEYCIQD+My9H4fi/8GSr0i1SzLTC5jSAutkgB0NJpap33dZdXQIhANSYneBvVQkNuXeSk0LPdnjN2kCBbRDeNhZ8BwmcWIX4"
     }
   }
 }
