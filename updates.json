@@ -6,6 +6,11 @@
       "url": "https://github.com/ijasonwhite/infracom-updates/releases/download/v0.5.0-windows/InfracomMail-win-x64-0.5.0.zip",
       "sha256": "ee333ef7361e853fc1c7a099bcc56173656fe987d095444a405e2d90deaa746b",
       "signature": "MEYCIQD+My9H4fi/8GSr0i1SzLTC5jSAutkgB0NJpap33dZdXQIhANSYneBvVQkNuXeSk0LPdnjN2kCBbRDeNhZ8BwmcWIX4"
+    },
+    "win-arm64": {
+      "url": "https://github.com/ijasonwhite/infracom-updates/releases/download/v0.5.0-windows/InfracomMail-win-arm64-0.5.0.zip",
+      "sha256": "9a025790775f562538b05637e136d2dbc68d99edc38d3c5575fdfb8cae6813fa",
+      "signature": "MEUCIQCgMpn9dlenPjWMHa1hZWCWH2T48IjAQEjGTds6H7+eEwIgKWAVkDI6jgqCacI1GL0FGTE1PkYR/E2V/6WWcll4Slc="
     }
   }
 }
