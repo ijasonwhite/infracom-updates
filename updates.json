@@ -1,16 +1,11 @@
 {
-  "version": "0.5.0",
-  "notes": "Infracom Mail 0.5.0",
+  "version": "0.6.0",
+  "notes": "\n- Flag a message and it stays findable: a Flagged view in the sidebar lists\n  everything you have starred, across every folder, and a flagged message that\n  you then archive stays in the list and says where it went.\n- The flag is the same state IMAP calls \\Flagged, so a message starred in\n  Outlook shows as flagged here, and one flagged here shows as flagged there.\n- A message you have already replied to is marked in the list, so you no longer\n  have to open a thread to find out whether you answered it.\n- The sidebar shows how full the mailbox is, amber near the limit and red when\n  full. Deployments that set no limit show no gauge.\n- A file too large to attach is refused when you pick it, naming its size and\n  the limit, instead of failing at the end of the upload.\n- A draft written in another mail client and addressed to somebody outside the\n  company shows the address it was written to, rather than appearing to be\n  addressed to nobody.",
   "packages": {
     "win-x64": {
-      "url": "https://github.com/ijasonwhite/infracom-updates/releases/download/v0.5.0-windows/InfracomMail-win-x64-0.5.0.zip",
-      "sha256": "ee333ef7361e853fc1c7a099bcc56173656fe987d095444a405e2d90deaa746b",
-      "signature": "MEYCIQD+My9H4fi/8GSr0i1SzLTC5jSAutkgB0NJpap33dZdXQIhANSYneBvVQkNuXeSk0LPdnjN2kCBbRDeNhZ8BwmcWIX4"
-    },
-    "win-arm64": {
-      "url": "https://github.com/ijasonwhite/infracom-updates/releases/download/v0.5.0-windows/InfracomMail-win-arm64-0.5.0.zip",
-      "sha256": "9a025790775f562538b05637e136d2dbc68d99edc38d3c5575fdfb8cae6813fa",
-      "signature": "MEUCIQCgMpn9dlenPjWMHa1hZWCWH2T48IjAQEjGTds6H7+eEwIgKWAVkDI6jgqCacI1GL0FGTE1PkYR/E2V/6WWcll4Slc="
+      "url": "https://github.com/ijasonwhite/infracom-updates/releases/download/v0.6.0-windows/InfracomMail-win-x64-0.6.0.zip",
+      "sha256": "e56a6a62343c3c33e0f5ff2a3b3a356a809237e65968e00f0f6a4d9553821fff",
+      "signature": "MEYCIQCtj7ZY14fTQwFl9sjUjY3lOOpYZwm4m71UnYhe9IKtNQIhAKD24hlHnmPunOgjySMLEqUBfU0WTnAXGp+k4ZzoOnX6"
     }
   }
 }
