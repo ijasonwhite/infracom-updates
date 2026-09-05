@@ -4,6 +4,30 @@
     <title>Infracom Mail</title>
     <language>en</language>
     <item>
+      <title>Infracom Mail 0.6.0</title>
+      <pubDate>Sat, 05 Sep 2026 08:38:30 +0100</pubDate>
+      <sparkle:version>11</sparkle:version>
+      <sparkle:shortVersionString>0.6.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<pre>
+- Flag a message and it stays findable: a Flagged view in the sidebar lists
+  everything you have starred, across every folder, and a flagged message that
+  you then archive stays in the list and says where it went.
+- The flag is the same state IMAP calls \Flagged, so a message starred in Apple
+  Mail or Outlook shows as flagged here, and one flagged here shows as flagged
+  there.
+- A message you have already replied to is marked in the list, so you no longer
+  have to open a thread to find out whether you answered it.
+- The sidebar shows how full the mailbox is, amber near the limit and red when
+  full. Deployments that set no limit show no gauge.
+- A file too large to attach is refused when you pick it, naming its size and
+  the limit, instead of failing at the end of the upload.
+- A draft written in another mail client and addressed to somebody outside the
+  company shows the address it was written to, rather than appearing to be
+  addressed to nobody.</pre>]]></description>
+      <enclosure url="https://github.com/ijasonwhite/infracom-updates/releases/download/v0.6.0/InfracomMail-0.6.0.zip" sparkle:edSignature="XDjRn7DRL3tGjMkAnW2/MdmrPmfzGM0synELdSzD3Xc3aM51Bh9KIjNHm46cO5x2ksxMkT+4/UoXQnE3HRVlAw==" length="3407754" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>Infracom Mail 0.5.0</title>
       <pubDate>Thu, 03 Sep 2026 20:46:35 +0100</pubDate>
       <sparkle:version>10</sparkle:version>
