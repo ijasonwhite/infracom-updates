@@ -33,7 +33,67 @@
       <sparkle:version>10</sparkle:version>
       <sparkle:shortVersionString>0.5.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<pre>Infracom Mail 0.5.0</pre>]]></description>
+      <description><![CDATA[<pre>- Save Draft keeps the message and the window: it used to spin the Send button,
+  which read as the half-written message going out, and then close.
+- Reply, Reply All, Forward, Mark as Read/Unread, Archive, Move to Trash and Get
+  New Mail are in a Message menu with the shortcuts every other Mac mail client
+  uses, and the Delete key acts on the selected messages.
+- Replies and forwards are written in the compose font instead of AppKit's Times
+  12, and the quoted message is set in from the reply rather than running into
+  it.
+- The composer checks spelling as you type.
+- A compose window is named after the message in it, not "New Message".
+- The caret starts in the body of a reply or a resumed draft, and in To on a
+  blank message.
+- A send retried after a failure replays the first attempt rather than
+  delivering the message twice.
+- The autocomplete list stays with the row it was typed in, so results from To
+  cannot be picked from under Cc.
+- A link typed as "example.com" is understood, and one that cannot be read says
+  so instead of greying the Add button out.
+- One destructive toolbar button, named for what it does in the folder you are
+  in ("Move to Trash", "Discard Draft", "Delete Permanently"), and every
+  message-action button has a tooltip.
+- List dates from another year say which year.
+- Clicking a new-mail banner opens that message, and a banner appears even while
+  the app is frontmost.
+- Removing a saved account from the login window asks first, and its button sits
+  beside the card rather than inside it.
+- Contacts shows that it is loading instead of claiming an empty directory.
+- The splash clears once the session has settled, and Escape skips it.
+- The message list takes a multiple selection again: shift-click, cmd-click and
+  Select All Messages (Cmd-Shift-A), with Mark Read, Archive, Trash and Delete
+  acting on all of them at once.
+- Refresh says whether it is working, and a refresh that fails over a folder
+  that already has messages in it puts a banner above the list instead of
+  leaving a stale list looking current.
+- Opening a thread marks every unread message in it read, not only the one
+  clicked, and the thread scrolls to that message and outlines it.
+- A reply landing in the thread you are reading now appears there, rather than
+  only in the list and the badges.
+- Drafts is badged with how many drafts there are.
+- Searching keeps paging: typing a query used to stop the list loading any more
+  messages, so nothing further could ever enter the search. Switching folder
+  clears the query rather than opening the next folder pre-filtered by it.
+- Message rows tell VoiceOver whether they are unread and whether they have
+  attachments.
+- Attachments are fetched once and reused, instead of being downloaded again
+  every time a card is drawn; saving one asks where to put it before it starts,
+  so cancelling no longer throws away a finished download.
+- An inline image whose bytes could not be fetched is offered as a download
+  instead of leaving a placeholder nothing can reach.
+- Colours a sender chose are kept where they can be read and lifted where they
+  cannot: a dark grey body colour is no longer a smudge on the dark card, a
+  yellow highlight stays black on yellow instead of white on yellow, and mail
+  carrying this client's old baked-in dark colours no longer draws as charcoal
+  bars in light mode.
+- Reopening a draft keeps the pictures in it embedded, rather than shipping a
+  dead file:/// reference and the picture as a loose attachment.
+- Removing an embedded image's chip removes the picture too, so the message
+  cannot go out pointing at a part that is no longer attached.
+- The plain-text part of a message with a picture in it no longer carries a
+  stray object-replacement character into list snippets and IMAP clients.
+- A contact with no office reads "Not set" rather than a stray comma.</pre>]]></description>
       <enclosure url="https://github.com/ijasonwhite/infracom-updates/releases/download/v0.5.0/InfracomMail-0.5.0.zip" sparkle:edSignature="elZ9/B1joVZIu+mlTuuugUPQaI9t5H9ZeZGbA5lDi/H40VJhVzYvPENOMUGd5ceVbgd5pDnwYJ0t7tZ19HCmAg==" length="3305542" type="application/octet-stream"/>
     </item>
     <item>
@@ -42,7 +102,31 @@
       <sparkle:version>9</sparkle:version>
       <sparkle:shortVersionString>0.4.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<pre>Infracom Mail 0.4.0</pre>]]></description>
+      <description><![CDATA[<pre>- An unfinished message can no longer be destroyed. It is written to Drafts a
+  couple of seconds after you stop typing, when you close the compose window,
+  and when a reply or a new message takes the window over, which used to throw
+  the half-written one away with no warning.
+- A name typed into To, Cc or Bcc counts. Return turns it into a recipient, the
+  arrow keys walk the suggestions, and a message will not go out leaving a name
+  behind in the field.
+- Attaching a file shows a chip and a spinner straight away, and Send waits for
+  the upload instead of sending the message without it.
+- Drafts can be discarded, from the row's own menu or the toolbar.
+- Right-clicking a message no longer opens it in the reading pane or marks it
+  read on its way to being archived, and Delete inside Trash asks first, as the
+  toolbar's Delete already did.
+- Actions that fail say so. Archiving, deleting, resuming a draft and the folder
+  counts all reported failures nowhere at all.
+- Checking for new mail every 30 seconds no longer throws away the pages you
+  have scrolled through.
+- Searching says it only searched what has been downloaded, and offers to fetch
+  more, instead of announcing "No Results" for mail that exists.
+- Cmd-Z after a formatting button takes back the formatting. It used to replay
+  the typing record and delete the text you had written.
+- Replies and forwards keep the pictures from the message being answered, and a
+  picture you insert is the one your Content-ID points at.
+- Screenshots wider than the reading pane are scaled to fit instead of being
+  drawn at full size with the right-hand side clipped off.</pre>]]></description>
       <enclosure url="https://github.com/ijasonwhite/infracom-updates/releases/download/v0.4.0/InfracomMail-0.4.0.zip" sparkle:edSignature="vNBf2EXA5mAF5jW7THjrNd8vWiv4czDZZ8Ew6Xxerq5Auo2XU4n1u7Bu/9h85UllTGTveO5z9b0JSwW7SDhlAA==" length="3089616" type="application/octet-stream"/>
     </item>
     <item>
