@@ -9,7 +9,9 @@
       <sparkle:version>13</sparkle:version>
       <sparkle:shortVersionString>0.8.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<pre>
+      <description><![CDATA[<pre>- Choosing New Message from a contact no longer leaves an empty draft behind.
+  The window arrives pre-addressed, and that counted as you having written
+  something, so walking away from it saved a blank message to Drafts.
 - A bar along the bottom of the window says how much is in the folder you are
   looking at, how much of it is unread, and when the app last managed to check
   for mail. If it cannot reach the server it says so there, with how old the
