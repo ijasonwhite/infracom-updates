@@ -4,6 +4,19 @@
     <title>Infracom Mail</title>
     <language>en</language>
     <item>
+      <title>Infracom Mail 0.8.0</title>
+      <pubDate>Sun, 06 Sep 2026 10:03:12 +0100</pubDate>
+      <sparkle:version>13</sparkle:version>
+      <sparkle:shortVersionString>0.8.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<pre>
+- A bar along the bottom of the window says how much is in the folder you are
+  looking at, how much of it is unread, and when the app last managed to check
+  for mail. If it cannot reach the server it says so there, with how old the
+  mail on screen is, instead of a quiet list that looks like a quiet morning.</pre>]]></description>
+      <enclosure url="https://github.com/ijasonwhite/infracom-updates/releases/download/v0.8.0/InfracomMail-0.8.0.zip" sparkle:edSignature="HRnCdTj+zYQC9JRzbNbwlGiOrDthE4eOWN6PsSUTLlDu7wuMdyIqgs0aT9Gy1CLtwKE2L17lfxAFG4qFN4xWDg==" length="3441465" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>Infracom Mail 0.7.0</title>
       <pubDate>Sat, 05 Sep 2026 21:47:32 +0100</pubDate>
       <sparkle:version>12</sparkle:version>
