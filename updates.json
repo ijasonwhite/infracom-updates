@@ -1,16 +1,11 @@
 {
-  "version": "0.6.0",
-  "notes": "\n- Flag a message and it stays findable: a Flagged view in the sidebar lists\n  everything you have starred, across every folder, and a flagged message that\n  you then archive stays in the list and says where it went.\n- The flag is the same state IMAP calls \\Flagged, so a message starred in\n  Outlook shows as flagged here, and one flagged here shows as flagged there.\n- A message you have already replied to is marked in the list, so you no longer\n  have to open a thread to find out whether you answered it.\n- The sidebar shows how full the mailbox is, amber near the limit and red when\n  full. Deployments that set no limit show no gauge.\n- A file too large to attach is refused when you pick it, naming its size and\n  the limit, instead of failing at the end of the upload.\n- A draft written in another mail client and addressed to somebody outside the\n  company shows the address it was written to, rather than appearing to be\n  addressed to nobody.",
+  "version": "0.8.0",
+  "notes": "\n- A bar along the bottom of the window says how much is in the folder you are\n  looking at, how much of it is unread, and when the app last managed to check\n  for mail. If it cannot reach the server it says so there, with how old the\n  mail on screen is, instead of a quiet list that looks like a quiet morning.\n\n- Version numbers now line up with the macOS client again. 0.7.0 was a macOS\n  fix for a bug this client never had, so there was no Windows 0.7.0.",
   "packages": {
     "win-x64": {
-      "url": "https://github.com/ijasonwhite/infracom-updates/releases/download/v0.6.0-windows/InfracomMail-win-x64-0.6.0.zip",
-      "sha256": "e56a6a62343c3c33e0f5ff2a3b3a356a809237e65968e00f0f6a4d9553821fff",
-      "signature": "MEYCIQCtj7ZY14fTQwFl9sjUjY3lOOpYZwm4m71UnYhe9IKtNQIhAKD24hlHnmPunOgjySMLEqUBfU0WTnAXGp+k4ZzoOnX6"
-    },
-    "win-arm64": {
-      "url": "https://github.com/ijasonwhite/infracom-updates/releases/download/v0.6.0-windows/InfracomMail-win-arm64-0.6.0.zip",
-      "sha256": "15209ce367cf146496225c04c278d304aaae6eca5a54b65995c33b1b55105ce5",
-      "signature": "MEUCIAPDTrer0fUZGTDD/TgpMQ7bGXTmdhErMgkFl76yjyFGAiEA/BMz9v2362KzUD8i8AjcII/B1UJwJNW/SaK8P603EVY="
+      "url": "https://github.com/ijasonwhite/infracom-updates/releases/download/v0.8.0-windows/InfracomMail-win-x64-0.8.0.zip",
+      "sha256": "89e26144b127505a7967b7c0d7da834ae4d174fa4a1baa86d03cc82ef41a05a5",
+      "signature": "MEUCIFOOwp5wCTz/vVRmMPvNMP3v+KiSuR9Q6KIuD8lbiTU7AiEAvK9cJzBoa9EWct2h+gFbVwzlhma7NH2pDaMPlPKGuE0="
     }
   }
 }
