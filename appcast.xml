@@ -4,6 +4,21 @@
     <title>Infracom Mail</title>
     <language>en</language>
     <item>
+      <title>Infracom Mail 0.8.5</title>
+      <pubDate>Sun, 20 Sep 2026 18:57:20 +0100</pubDate>
+      <sparkle:version>18</sparkle:version>
+      <sparkle:shortVersionString>0.8.5</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<pre>
+- The window opens where you left it, at the size you left it, and the panes
+  keep the widths you dragged them to. Both windows remember their own, so
+  resizing a message you are writing doesn't move the mailbox behind it.
+- The sidebar can be dragged wider than it could before. It stopped at 240
+  points, which was narrow for long folder names and left little worth
+  remembering.</pre>]]></description>
+      <enclosure url="https://github.com/ijasonwhite/infracom-updates/releases/download/v0.8.5/InfracomMail-0.8.5.zip" sparkle:edSignature="Ynwc3Dh9UKf483lDhM3QCQPFQsO5Ao3LkEX1pszXx109MOp4oEeLyebYmeVCC5/PdEkpdvSokoVANJE6Jm4SCg==" length="3464087" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>Infracom Mail 0.8.4</title>
       <pubDate>Sun, 20 Sep 2026 18:51:55 +0100</pubDate>
       <sparkle:version>17</sparkle:version>
