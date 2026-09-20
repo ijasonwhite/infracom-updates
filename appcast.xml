@@ -4,6 +4,26 @@
     <title>Infracom Mail</title>
     <language>en</language>
     <item>
+      <title>Infracom Mail 0.8.3</title>
+      <pubDate>Sun, 20 Sep 2026 18:42:54 +0100</pubDate>
+      <sparkle:version>16</sparkle:version>
+      <sparkle:shortVersionString>0.8.3</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<pre>
+- Formatted message bodies really are visible now. The card showed the sender,
+  the recipients, a dividing line and then nothing, and the two previous
+  attempts at this fixed things that were never broken. The body view told
+  SwiftUI how much room it needed through a method SwiftUI was never calling:
+  the size it hands back is optional, ours was not, so the method sat there
+  unused and every formatted body was laid out zero points tall. Plain text was
+  unaffected, which is why some messages read fine.
+- The render check now draws each body through the same view the window uses,
+  on top of measuring it directly. That gap is the reason this survived two
+  releases: the measuring was always correct, and nothing ever checked that the
+  measurement reached the screen.</pre>]]></description>
+      <enclosure url="https://github.com/ijasonwhite/infracom-updates/releases/download/v0.8.3/InfracomMail-0.8.3.zip" sparkle:edSignature="SlGFztjIkfvHthrLEZwn/W24XcOYzDlf70VjDJC1qvnJDtfY37MNaAeVekEcKtTb+bkyr6GVMHTmBp5e9GBqCQ==" length="3445839" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>Infracom Mail 0.8.2</title>
       <pubDate>Sun, 20 Sep 2026 18:01:28 +0100</pubDate>
       <sparkle:version>15</sparkle:version>
