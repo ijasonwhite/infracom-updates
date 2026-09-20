@@ -4,6 +4,24 @@
     <title>Infracom Mail</title>
     <language>en</language>
     <item>
+      <title>Infracom Mail 0.8.4</title>
+      <pubDate>Sun, 20 Sep 2026 18:51:55 +0100</pubDate>
+      <sparkle:version>17</sparkle:version>
+      <sparkle:shortVersionString>0.8.4</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<pre>
+- Messages are no longer set in Times. AppKit's HTML importer falls back to
+  12pt Times when the markup names no font, and to Courier inside code, so any
+  message that didn't specify one read as a 1996 web page at a size you had to
+  lean in for. Those two fallbacks now give way to the system font at 14pt,
+  with code in the system monospaced face. A font the sender actually chose is
+  still drawn exactly as they wrote it.
+- Nothing is drawn below 12pt any more, however small the sender set it.
+- Replies are composed at the same size they are read at, rather than a point
+  smaller.</pre>]]></description>
+      <enclosure url="https://github.com/ijasonwhite/infracom-updates/releases/download/v0.8.4/InfracomMail-0.8.4.zip" sparkle:edSignature="uyKFUYpY3jWYTvnpXLxj8Sj6mHFOMhVRBzZ+uUWahn9SPE0vXD9F1W3eyGbAy+yPu9YMENCipGU8wGsdszykDg==" length="3449765" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>Infracom Mail 0.8.3</title>
       <pubDate>Sun, 20 Sep 2026 18:42:54 +0100</pubDate>
       <sparkle:version>16</sparkle:version>
