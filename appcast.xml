@@ -4,6 +4,21 @@
     <title>Infracom Mail</title>
     <language>en</language>
     <item>
+      <title>Infracom Mail 0.8.2</title>
+      <pubDate>Sun, 20 Sep 2026 18:01:28 +0100</pubDate>
+      <sparkle:version>15</sparkle:version>
+      <sparkle:shortVersionString>0.8.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<pre>
+- Message bodies are visible again. Every message showed its sender, its
+  recipients and a dividing line, and then stopped: the body was laid out
+  correctly and drawn into a space zero points wide.
+- A message whose formatting cannot be displayed now falls back to its plain
+  text instead of an empty card, so a body that cannot be drawn is never
+  mistaken for a message sent with nothing in it.</pre>]]></description>
+      <enclosure url="https://github.com/ijasonwhite/infracom-updates/releases/download/v0.8.2/InfracomMail-0.8.2.zip" sparkle:edSignature="WUQmgG/rzrXjRHSjy/qfpK9y5n+iOQYRDcsMuNqO71xBv2CWQZu1GlY7jrZR/zJtB6URFFtHjLhe3zhQgXnwAA==" length="3445136" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>Infracom Mail 0.8.1</title>
       <pubDate>Sun, 20 Sep 2026 17:48:35 +0100</pubDate>
       <sparkle:version>14</sparkle:version>
