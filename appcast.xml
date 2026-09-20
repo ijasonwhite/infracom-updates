@@ -4,6 +4,23 @@
     <title>Infracom Mail</title>
     <language>en</language>
     <item>
+      <title>Infracom Mail 0.8.6</title>
+      <pubDate>Sun, 20 Sep 2026 19:01:09 +0100</pubDate>
+      <sparkle:version>19</sparkle:version>
+      <sparkle:shortVersionString>0.8.6</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<pre>
+- The window and the panes really do keep their size now. 0.8.5 only managed
+  it for the message you are writing. The mailbox window was still being
+  filed by SwiftUI under a name built from the shape of the view inside it, so
+  it survived quitting the app but was forgotten by the next update, which is
+  why this looked like it had never worked. Both are now saved under a name of
+  ours that does not change between releases.
+- A window saved on a display that is no longer plugged in opens at its usual
+  size instead of somewhere you cannot reach it.</pre>]]></description>
+      <enclosure url="https://github.com/ijasonwhite/infracom-updates/releases/download/v0.8.6/InfracomMail-0.8.6.zip" sparkle:edSignature="ZJbV1kbfGkh3v3phSeebNzn8+C/4bnFWlOv0rtQHLr1yKbDTt+77dzX0E/+OYHQpWMrgBE6vJ9Rlz8FF/d9wDg==" length="3476413" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>Infracom Mail 0.8.5</title>
       <pubDate>Sun, 20 Sep 2026 18:57:20 +0100</pubDate>
       <sparkle:version>18</sparkle:version>
